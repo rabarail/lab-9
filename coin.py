@@ -12,6 +12,10 @@ class Coin:
         self.heads = "Heads"
         self.tails = "Tails"
 
+    def toss(self):
+        tossed_coin = random.randint(0, 1)
+        sets_sideup = random.choice([self.heads, self.tails])
+    
 
 
 
