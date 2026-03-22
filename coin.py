@@ -17,7 +17,8 @@ class Coin:
         sets_sideup = random.choice([self.heads, self.tails])
     def get_sideup(self):
         return sets_sideup
-    
+
+
 
 
 
