@@ -7,3 +7,15 @@ Date:  March 22,2026
 from coin import Coin
 
 class Player:
+    def _init_(self, name):
+        self._name = name
+        self._wallet = 20
+        self._coin =Coin()
+
+    def toss_coin(self):
+        self.toss_coin()
+
+    def get_coin_side(self):
+        return self._coin.get_sideup()
+    
+    
