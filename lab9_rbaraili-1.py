@@ -20,4 +20,6 @@ while True:
     player1.tossed_coin()
     player2.tossed_coin()
 
+    side1 = player1.get_coin_side()
+    side2 =player2.get_coin_side()
 
