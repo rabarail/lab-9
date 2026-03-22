@@ -7,23 +7,26 @@ Date:  March 22,2026
 from coin import Coin
 
 class Player:
-    def _init_(self, name):
-        self._name = name
-        self._wallet = 20
-        self._coin =Coin()
+    def __init__(self, name):
+        self.__name = name
+        self.__wallet = 20
+        self.__coin =Coin()
 
     def toss_coin(self):
-        self.toss_coin()
+        self.__coin.toss()
 
     def get_coin_side(self):
-        return self._coin.get_sideup()
+        return self.__coin.get_sideup()
     
     def win_coin(self):
-        return 1 + self._wallet
+        self.__wallet += 1
     
     def loss_coin(self):
         return self._wallet - 1
     
-    def get_name(name):
-        return name
+    def get_name(self):
+        return self.__name
+    
+    def get_wallet(self):
+        return self.__wallet
     

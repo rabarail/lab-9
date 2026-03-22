@@ -8,15 +8,15 @@ import random
 
 class Coin:
 
-    def _init_(self):
+    def __init__(self):
         self.heads = "Heads"
         self.tails = "Tails"
 
     def toss(self):
-        tossed_coin = random.randint(0, 1)
-        sets_sideup = random.choice([self.heads, self.tails])
+        self.side_up = random.choice([self.head, self.tail])
+
     def get_sideup(self):
-        return sets_sideup
+        return self.side_up
 
 
 
