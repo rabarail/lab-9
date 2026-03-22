@@ -7,3 +7,9 @@ Date: March 22, 2026
 import player as p
 import coin as c
 
+def main():
+    
+    player1 = Player("Player 1")
+    player2 = Player("Player 2")
+
+
