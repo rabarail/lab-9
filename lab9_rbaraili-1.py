@@ -44,7 +44,12 @@ def main():
         print(f"{player1.get_name()}: {player1.get_wallet()}")
         print(f"{player2.get_name()}: {player2.get_wallet()}")
 
-        
+        if player1.get_wallet() > player2.get_wallet():
+            print(f"{player1.get_name()} wins!")
+        elif player1.get_wallet() < player2.get_wallet():
+            print(f"{player2.get_name()} wins!")
+        else:
+            print("It's a draw!")
 
 
     
