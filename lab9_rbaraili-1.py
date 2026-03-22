@@ -12,4 +12,8 @@ def main():
     player1 = Player("Player 1")
     player2 = Player("Player 2")
 
-
+while True:
+    play = input("Do you want to toss the coin? (y/n)")
+    if play !='y' or 'Y':
+        break
+    
