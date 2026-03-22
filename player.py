@@ -21,6 +21,9 @@ class Player:
     def win_coin(self):
         return 1 + self._wallet
     
+    def loss_coin(self):
+        return self._wallet - 1
+    
     def get_name(name):
         return name
     
