@@ -18,4 +18,9 @@ class Player:
     def get_coin_side(self):
         return self._coin.get_sideup()
     
+    def win_coin(self):
+        return 1 + self._wallet
+    
+    def get_name(name):
+        return name
     
