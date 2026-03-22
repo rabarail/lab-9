@@ -16,4 +16,8 @@ while True:
     play = input("Do you want to toss the coin? (y/n)")
     if play !='y' or 'Y':
         break
-    
+
+    player1.tossed_coin()
+    player2.tossed_coin()
+
+
