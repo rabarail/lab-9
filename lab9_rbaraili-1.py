@@ -23,3 +23,5 @@ while True:
     side1 = player1.get_coin_side()
     side2 =player2.get_coin_side()
 
+    print(f"{player1.get_name} tossed {side1}")
+    print(f"{player2.get_name} tossed {side2}")
